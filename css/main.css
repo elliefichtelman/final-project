@@ -1,0 +1,78 @@
+/* UNIVERSAL STYLES */
+@font-face {
+  font-family: 'Wisdom Script';
+  src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+body {
+  font-family: 'Montserrat';
+}
+a {
+  text-decoration: none;
+}
+
+/* CONSOLIDATED STYLES */
+nav a, header span, main h2, section ul a, footer span {
+  color: #77a466;
+}
+header h1, nav li, main h2, section h3, footer h2 {
+  text-transform: uppercase;
+}
+
+/* GRID STYLES */
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+.half-width {
+  float: left;
+  width: 600px;
+}
+.third-width {
+  float: left;
+  padding-bottom: 15px;
+  width: 400px;
+}
+
+/* HEADER STYLES */
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+
+/* MAIN STYlES */
+#green-beans {
+  border-bottom: 4px solid #77a466;
+  border-top: 4px solid #77a466;
+}
+
+/* SECTION STYLES */
+section ul {
+  list-style:none;
+  padding: 0;
+}
+section .info {
+  border-right: .5px solid #dedbdc;
+  padding: 20px;
+}
+section .third-width:last-child .info {
+  border-right: none;
+}
+.border {
+  border-bottom: .5px solid #dedbdc;
+  border-top: .5px solid #dedbdc;
+}
+
+/* FOOTER STYLES */
+footer {
+  clear: both;
+  text-align: center;
+}
+footer span {
+  font-family: 'Wisdom Script';
+  text-transform: lowercase;
+}
